@@ -4,7 +4,7 @@
 Lumina AI is a Cloud Financial Management (FinOps) tool engineered to identify and remediate infrastructure leakage. By auditing 10,000+ cloud nodes across global regions, this engine identifies "Zombie Instances" (Idle resources) and provides automated shutdown recommendations to drive capital efficiency.
 
 ### 📊 Savings Dashboard
-![Dashboard View](assets/Lumina_Main_Dashboard.png)
+![Dashboard View](Lumina_Main_Dashboard.png)
 
 ## ⚙️ Technical Logic & Audit Criteria
 * **Waste Detection:** Heuristic-based logic flagging nodes with <5% CPU utilization and high hourly costs.
