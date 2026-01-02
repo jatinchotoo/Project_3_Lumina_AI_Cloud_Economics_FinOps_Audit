@@ -9,7 +9,7 @@ Lumina AI is a Cloud Financial Management (FinOps) tool engineered to identify a
 ## ⚙️ Technical Logic & Audit Criteria
 * **Waste Detection:** Heuristic-based logic flagging nodes with <5% CPU utilization and high hourly costs.
 * **Regional Analytics:** Comparative spend analysis across London, Cape Town, and New York.
-* **Financial Impact:** Identified over **$12,400 in monthly leakage**, representing a **$148,800 annual savings** opportunity.
+* **Financial Impact:** Identified over **R12,400 in monthly leakage**, representing a **R148,800 annual savings** opportunity.
 * **Status Classification:** Automated categorization into `OPTIMAL`, `MAINTAIN`, or `CRITICAL:SHUTDOWN`.
 
 ## 🛠️ Tech Stack
