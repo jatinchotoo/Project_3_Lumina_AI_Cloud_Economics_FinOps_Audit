@@ -29,11 +29,19 @@
 ## 🧠 Business Intelligence Summary
 Lumina AI is an executive-grade FinOps intelligence platform designed to bridge the gap between technical cloud utilization and CFO-level capital allocation. The system transforms raw telemetry from **10,000+ compute nodes** into decision-ready financial signals.
 
-### 🎯 The Problem
-Organizations operating at scale face "Technical Debt" in the form of financial leakage. Idle or underutilized instances consume capital without delivering ROI, and these costs are often hidden behind technical metrics that lack financial context.
+**Note:** *Designed to mirror real-world FinOps audits conducted at enterprise cloud scale.*
 
-### 💡 The Solution
-The platform applies deterministic financial logic and regional benchmarking across **London, Cape Town, and New York** to surface immediate cost optimization opportunities.
+### 📝 Audit Scope & Assumptions
+To ensure financial accuracy and operational safety, the following parameters were applied:
+* **Timeframe:** Audit based on 30-day rolling utilization averages.
+* **Pricing:** Cost rates derived from blended regional on-demand pricing for London, Cape Town, and New York.
+* **Governance:** High-availability (HA) nodes are flagged and excluded from shutdown logic to prevent operational risk.
+* **Data:** Built using anonymized infrastructure telemetry representative of enterprise-scale cloud environments.
+
+---
+
+## 🎯 The Problem
+Organizations operating at scale face "Technical Debt" in the form of financial leakage. Idle or underutilized instances consume capital without delivering ROI, and these costs are often hidden behind technical metrics that lack financial context.
 
 ---
 
@@ -43,8 +51,6 @@ Every infrastructure node is evaluated using specific financial rules:
 * **🔴 CRITICAL: SHUTDOWN** (CPU < 5% + High Hourly Cost) → Immediate financial leakage identified.
 * **🟡 MAINTAIN** (Moderate utilization) → Acceptable performance; monitor for trends.
 * **🟢 OPTIMAL** (Efficient utilization) → Optimal capital deployment.
-
-*Note: The logic includes a context-awareness layer to distinguish between genuine waste and critical high-availability (failover) nodes.*
 
 ---
 
